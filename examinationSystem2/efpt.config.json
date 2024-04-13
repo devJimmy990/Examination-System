@@ -1,0 +1,326 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "SQL_ProjectContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": "Context",
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "examinationSystem2",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[Course]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Department]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DeptCourse]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Exam]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Exam_Question]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Instructor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QuesChoices]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Question]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[StdCourse]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[StdExam]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Student]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Topic]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SP_DeleteCourse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_DeleteDepartment]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_DeleteDeptCourse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_DeleteExam]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_DeleteExamQues]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_DeleteQuesAnswer]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_DeleteQuesChoice]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_DeleteQuestion]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_DeleteStdCourse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_DeleteStdExam]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_DeleteStudent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_ExamAnswers]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_ExamCorrection]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_ExamGeneration]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_GetStdCourses]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_InsertCourse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_InsertDepartment]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_InsertDeptCourse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_InsertExam]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_InsertExamQues]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_InsertInstructor]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_InsertQuesChoice]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_InsertQuestion]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_InsertStdCourse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_InsertStdExam]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_InsertStudent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_logIN]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_ReopSTDCourseGrade]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_RepoExamQuestions]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_RepoStudentAns]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_SelectCourse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_SelectDepartment]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_SelectDeptCourse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_SelectExam]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_SelectExamQues]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_SelectInstructor]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_SelectQuesChoices]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_SelectQuestion]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_SelectStdCourse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_SelectStdExam]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_SelectStudent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_SelectTopics]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_UpdateCourse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_UpdateDepartment]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_UpdateDeptCourse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_UpdateExam]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_UpdateExamQues]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_UpdateQuesChoice]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_UpdateQuestion]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_UpdateStdCourse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_UpdateStdExam]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_UpdateStudent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_UpdateTopic]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[repo].[SP_DeptStudentsInfo]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[repo].[SP_ExamQuestions]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[repo].[SP_InstructorInfo]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[repo].[SP_SelectTopicsByCourse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[repo].[SP_STDCourseGrade]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[repo].[SP_StudentExamAns]",
+         "ObjectType": 1
+      }
+   ],
+   "UiHint": "mera\\sqlexpress.SQL_Project.dbo",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
